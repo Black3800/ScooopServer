@@ -1,0 +1,7 @@
+cs\sit\ScooopServerUltimatum\HelloApplication.class
+cs\sit\ScooopServerUltimatum\HelloServlet.class
+cs\sit\ScooopServerUltimatum\Controller\LoginServlet.class
+cs\sit\ScooopServerUltimatum\Model\LoginOperation.class
+cs\sit\ScooopServerUltimatum\Model\Login.class
+cs\sit\ScooopServerUltimatum\HelloResource.class
+cs\sit\ScooopServerUltimatum\Utils\DBConnection.class

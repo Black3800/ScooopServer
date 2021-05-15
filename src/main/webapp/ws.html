@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+</head>
+<body style="margin:0;">
+<div id="p"></div>
+<button onclick="emit()">Update</button>
+<script>
+    var ws = new WebSocket("ws://localhost:8080/ScooopServerUltimatum_war_exploded/ws");
+    ws.onmessage = function (event) {
+        document.getElementById("p").innerHTML = event.data;
+    }
+
+    function emit() {
+        ws.send(Math.round(Math.random()*100) + 1);
+    }
+</script>
+</body>
+</html>
